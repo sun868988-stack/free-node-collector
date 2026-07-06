@@ -1,0 +1,2 @@
+# 节点数据将在首次运行后自动生成
+# 运行方式：python src/collector.py 或等待 GitHub Actions 自动执行
