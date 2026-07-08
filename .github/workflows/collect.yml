@@ -1,9 +1,9 @@
 name: Collect Free Nodes
 
 on:
-  # 定时执行：每天 0:00, 6:00, 12:00, 18:00 (UTC) 即北京时间 8:00, 14:00, 20:00, 2:00
+  # 定时执行：每天 0:00 (UTC) 即北京时间 8:00
   schedule:
-    - cron: '0 0,6,12,18 * * *'
+    - cron: '0 0 * * *'
   # 手动触发
   workflow_dispatch:
 
