@@ -1,7 +1,7 @@
 on:
   # schedule:           <-- 在前面加个 #
   #   - cron: '0 0 * * *' <-- 在前面加个 #
-  workflow_dispatch:   # 保留这一行，这样你以后想跑的时候还能手动点
+  
 
   workflow_dispatch:
 
